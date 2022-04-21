@@ -28,7 +28,7 @@ Tipos de reverse Shell incluidos:
 - Rustcat
 - Socat 
 - Telnet
-- Windows ConPty
+- Windows conpty
 - Zsh
 
 
