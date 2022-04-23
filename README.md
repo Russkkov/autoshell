@@ -1,10 +1,43 @@
 # AutoSHELL
 
-Script en Bash para crear automáticamente reverse Shell especificando únicamente la IP y el puerto a utilizar.
+AutoSHELL es un script para generar una reverse shell, bind reverse shell o MSFVenom reverse shell de forma automática siguiendo paso a paso el menú e indicándole la IP y el puerto a utilizar (ver Uso 1).
+También puede generarse la reverse shell usando los parámetros (ver Uso 2).
+
+- Uso 1: autoshell.sh
+ 
+ Si se ejecuta el script sin parámetros se abrirá el menú con los tipos de reverse shell disponibles y te guiará paso por paso.
+
+- Uso 2: autoshell.sh [-t] {tipo} [-i] {IP} [-p] {puerto} [-r][-b][-v]
+ 
+ El tipo de reverse shell se indica con el parámetro -t seguido del nombre (-t bash). Para conocer los tipos de reverse shell disponibles ver Uso 3.
+	La IP se indica con el parámetro -i seguido de la IP local (-i 127.0.0.0).
+	El puerto se indica con el parámetro -p seguido del número de puerto a utilizar (-p 8080).
+	El modo de shell (reverse, bind o MSFVenom) se indica con -r, -b o -v. Para conocer los tipos de shell disponibles ver Uso 5.
+
+- Uso 3: autoshell.sh [-e] <puerto>
+	
+ Si se usa el parámetro -e seguido del número de puerto se mostrarán las distintas formas de poner en escucha un puerto.
+
+- Uso 4: autoshell.sh [-l][--list][--lista]
+	
+ Si se usa el parémtro -l, --list o --lista se mostrarán todos los tipos de reverse shell disponibles y su nombre a usar en el argumento [-t] para cada tipo de modo de los parámetros [-r], [-b] o [-v].
+
+ - Uso 5: autoshell.sh [-m][--mod][--modo]
+	
+ Si se usa el parémtro -m, --mod o --modo se mostrarán los modos de reverse shell posibles.
+
+- Uso 6: autoshell.sh [-i][--info] <nombre_tipo>
+	
+ Si se usa el parémtro -i o --info seguido del nombre del tipo de reverse shell se mostrará un código de ejemplo para el tipo indicado.
+
+- Uso 7: autoshell.sh [-h][--help][--ayuda]
+	
+ Si se usa el parémtro -h, --help o --ayuda se mostrará este panel de ayuda.
+
 
  
 
-Tipos de reverse Shell incluidos:
+Tipos de reverse shell incluidos:
 
 - Awk
 - Bash
@@ -32,4 +65,21 @@ Tipos de reverse Shell incluidos:
 - Zsh
 
 
+ Tipos de bind reverse shell incluidos:
  
+- PHP
+- Python
+
+ 
+ Tipos de MSFVenom reverse shell incluidos:
+ 
+- Android
+- Bash
+- JSP
+- Linux
+- macOS
+- PHP
+- Python
+- WAR
+- Windows
+
