@@ -1,7 +1,8 @@
 # AutoSHELL
 
-AutoSHELL es un script para generar una reverse shell, bind reverse shell o MSFVenom reverse shell de forma automática siguiendo paso a paso el menú e indicándole la IP y el puerto a utilizar (ver Uso 1).
+AutoSHELL es un script para generar una reverse shell, bind reverse shell o meterpreter shell de forma automática siguiendo paso a paso el menú e indicándole la IP y el puerto a utilizar (ver Uso 1).
 También puede generarse la reverse shell usando los parámetros (ver Uso 2).
+En la forma de uso 1 y 2 se mostrará el código de la shell en el lenguaje indicado así como codificado en base64 y url.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -62,13 +63,13 @@ Si se usa el parémtro -m, --mod o --modo se mostrarán los modos de reverse she
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-**- Uso 6: autoshell.sh [-i][--info] {nombre_tipo}**
+**- Uso 6: autoshell.sh [-c][--code][--codigo] {nombre_tipo}**
 
 ```
-autoshell.sh -i
+autoshell.sh -c
 ```
 
-Si se usa el parémtro -i o --info seguido del nombre del tipo de reverse shell se mostrará un código de ejemplo para el tipo indicado.
+Si se usa el parémtro -c, --code o --codigo seguido del nombre del tipo de reverse shell se mostrará un código de ejemplo para el tipo indicado.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -95,11 +96,9 @@ Si se usa el parémtro -h, --help o --ayuda se mostrará este panel de ayuda.
 - Awk
 - Bash
 - C
-- C#
 - Dart
+- Gawk
 - Golang
-- Groovy
-- Haskell
 - Java
 - Javascript
 - Lua
@@ -110,18 +109,17 @@ Si se usa el parémtro -h, --help o --ayuda se mostrará este panel de ayuda.
 - PHP
 - PowerShell
 - Python
+- Regsvr32
 - Ruby
 - Rustcat
 - Socat 
 - Telnet
-- Windows conpty
 - Zsh
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
  **Tipos de bind reverse shell incluidos:**
  
-- PHP
 - Python
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -134,7 +132,6 @@ Si se usa el parémtro -h, --help o --ayuda se mostrará este panel de ayuda.
 - Linux
 - macOS
 - PHP
-- Python
 - WAR
 - Windows
 
