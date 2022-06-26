@@ -1,7 +1,9 @@
 # AutoSHELL
 
 AutoSHELL es un script para generar una reverse shell, bind reverse shell o meterpreter shell de forma automática siguiendo paso a paso el menú e indicándole la IP y el puerto a utilizar (ver Uso 1).
+
 También puede generarse la reverse shell usando los parámetros (ver Uso 2).
+
 En la forma de uso 1 y 2 se mostrará el código de la shell en el lenguaje indicado así como codificado en base64 y url.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
