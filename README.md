@@ -6,6 +6,18 @@ En la forma de uso 1 y 2 se mostrará el código de la shell en el lenguaje indi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+# Instalación
+
+git clone https://github.com/Russkkov/autoshell.git
+
+cd autoshell
+
+chmod +x autoshell.sh
+
+cp autoshell.sh /usr/bin
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 # Uso
 
 **- Uso 1: autoshell.sh**
